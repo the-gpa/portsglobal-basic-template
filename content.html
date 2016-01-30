@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>HTML Frames Example - Content</title>
+<style type="text/css">
+body {
+	font-family:verdana,arial,sans-serif;
+	font-size:10pt;
+	margin:30px;
+	background-color:#ded5b8;
+	}
+</style>
+</head>
+<body>
+<h1>Content</h1>
+<h2>Replacing the Contents of the Current Frame</h2>
+<p>Clicking on these links will open the new page within the current frame.</p>
+<ul>
+	<li><a href="white.html" target="content">Load white page</a></li>
+	<li><a href="green.html" target="content">Load green page</a></li>
+</ul>
+
+<h2>Replacing the Whole Frameset</h2>
+<p>When you click on any of the following links, the whole frameset is replaced with the new website. This is because we're using <code>target="_top"</code> in the anchor links.</p>
+<ul>
+	<li><a href="http://gpaworldports.org/" target="_top">GPA WORLD PORTS</a></li>
+		<li><a href="http://gpaworldports.org/" target="_top">GPA WORLD PORTS</a></li>
+			<li><a href="http://gpaworldports.org/" target="_top">GPA WORLD PORTS</a></li>
+				<li><a href="http://gpaworldports.org/" target="_top">GPA WORLD PORTS</a></li>
+</ul>
+
+<h2>Open a New Window</h2>
+<p>These links open in a new browser window. This is because we use <code>target="_blank"</code>.</p>
+<ul>
+	<li><a href="http://gpaworldports.org/" target="_blank">GPA WORLD PORTS</a></li>
+		<li><a href="http://gpaworldports.org/" target="_blank">GPA WORLD PORTS</a></li>
+</ul>
+
+</body>
+</html>
